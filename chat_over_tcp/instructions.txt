@@ -1,0 +1,5 @@
+1. Compile both the programs.
+2. Start the server by '<server_executable_file> <port>'.
+3. If running the server and client in the same machine on different terminals, in the second terminal run '<client_executable_file> 127.0.0.1 <server_port>'.
+4. For the client to be on different machine, connect the two machines and run ifconfig on the client machine.
+5. Use the ip addr of the server machine from the output of ifconfig in the command in step 3.
